@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Zhiduo (Katara) Xie's Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/be6d9fdd26.js" crossorigin="anonymous"></script>
+    <link href='https://fonts.googleapis.com/css?family=Arbutus Slab' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <nav class="menu-bar">
+            <div class="container">
+                <ul class="menu">
+                    <li><a href="#" onclick="showSection('profile')">Home</a></li>
+                    <li><a href="#" onclick="showSection('education')">Education</a></li>
+                    <li><a href="#" onclick="showSection('work')">Experience</a></li>
+                    <li><a href="#" onclick="showSection('projects')">Projects</a></li>
+                    <li><a href="#" onclick="showSection('skills')">Skills</a></li>
+                    <li><a href="#" onclick="showSection('teaching')">Teaching</a></li>
+                    <li><a href="#" onclick="showSection('awards')">Awards</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="profile">
+            <div class="profile-pic">
+              <img src="profile/17.svg" alt="Zhiduo (Katara) Xie" style="width: 250px; height: auto; max-width: 100%; border-radius: 50%;">
+            </div>
+            <div class="right-section">
+              <div class="intro-text">
+                <p>H<span id="typing-text"></span></p>
+                <h1>Zhiduo (Katara) Xie</h1>
+              </div>
+              <div class="profile-card">
+                <p class="summary">
+                    Zhiduo (Katara) is a highly skilled data scientist and business analyst with a strong foundation in information systems and economics. With internship experiences across start-up(System2 LLC), tech (Tencent), consulting (KPMG) and banking (HSBC), working on predictive models, data pipelines, statistical analyses and product development, she has demonstrated the ability to provide actionable insights and improve decision-making. She thrives in cross-functional collaborations and fast-paced environments!
+                </p>
+              </div>
+            </div>
+        </section>
+        <div class="contacts">
+            <a href="https://www.linkedin.com/in/zhiduo-xie/" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin fa-lg"></i></a>
+            <a href="https://github.com/Kataraduo" target="_blank" aria-label="Social Media"><i class="fa-brands fa-github fa-lg"></i></a>
+            <a href="mailto:zx324@cornell.edu" aria-label="Email"><i class="fa-solid fa-envelope fa-lg"></i></a>
+            <a href="tel:+19296914750" aria-label="Phone"><i class="fa-solid fa-phone fa-lg"></i></a>
+        </div>
+
+        <section id="education" class="hidden">
+            <h2 class="section-title">Education</h2>
+            <div class="content-container" id="education-container">
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">May 2025</div>
+                        <div class="timeline-content">
+                            <h3>M.S. in Information Systems</h3>
+                            <span class="school">Cornell University (Cornell Tech)</span>
+                            <p class="thesis">
+                                <strong>Coursework:</strong> Applied Data Science, Machine Learning, Algorithms & Data Structures, Statistics for Data Science, Data Engineering, Business Fundamentals, Human-Computer Interaction (HCI), User Experience and User Research, Pricing & Revenue Management, Branding for Products
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">May 2023</div>
+                        <div class="timeline-content">
+                            <h3>B.A. in Economics; Political Economy</h3>
+                            <span class="school">Duke University (Duke Kunshan University)</span>
+                            <p class="thesis">
+                                <strong>Coursework:</strong> Probability and Statistics, Introduction to Data Science, Data Analytics for Business, Econometrics, Micro & Macro Economics, Computational Social Science, Social and Economic Networks, Corporate Finance, Behavioral Finance
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="work" class="hidden">
+            <h2>Work Experience</h2>
+            <div class="content-container" id="experience-container">
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">Jun 2024 – Aug 2024</div>
+                        <div class="timeline-content">
+                            <h3 class="position">Data Scientist</h3>
+                            <span class="institution">System2 LLC</span>
+                            <div class="description-container">
+                                <ul class="description-list">
+                                    <li>Developed predictive models using PostgreSQL and Python to analyze alternative data, providing hedge fund clients with interactive dashboards and actionable business insights.</li>
+                                    <li>Engineered an end-to-end ETL pipeline to process investment research data, conducted EDA, and built Streamlit apps for data visualization.</li>
+                                    <li>Implemented statistical inference and modeling techniques to ensure data representativeness, achieving an R-squared of 88%.</li>
+                                </ul>
+                            </div>
+                            <div class="techniques">
+                                <span class="technique-tag">PostgreSQL</span>
+                                <span class="technique-tag">Python</span>
+                                <span class="technique-tag">ETL</span>
+                                <span class="technique-tag">EDA</span>
+                                <span class="technique-tag">Streamlit</span>
+                                <span class="technique-tag">Predictive modeling</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">Feb 2023 – May 2023</div>
+                        <div class="timeline-content">
+                            <h3 class="position">Business Analyst Intern</h3>
+                            <span class="institution">KPMG Consulting</span>
+                            <div class="description-container">
+                                <ul class="description-list">
+                                    <li>Analyzed sales performance data using Excel, identifying underperforming locations and operational inefficiencies for multiple franchise stores.</li>
+                                    <li>Performed on-site inventory audits to mitigate misreporting risks and ensure data accuracy, delivered professional PowerPoints with clear Tableau visualizations to present insights to senior analysts and clients.</li>
+                                </ul>
+                            </div>
+                            <div class="techniques">
+                                <span class="technique-tag">Excel (VBA)</span>
+                                <span class="technique-tag">Tableau</span>
+                                <span class="technique-tag">PowerPoint</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">Jul 2022 – Aug 2022</div>
+                        <div class="timeline-content">
+                            <h3 class="position">Commercial Banking Summer Analyst</h3>
+                            <span class="institution">HSBC Bank</span>
+                            <div class="description-container">
+                                <ul class="description-list">
+                                    <li>Conducted industry research and analyzed financial statements to support credit applications, strengthening client risk assessments.</li>
+                                    <li>Performed due diligence, KYC checks and compliance tasks, improving loan approval and risk assessment efficiency.</li>
+                                </ul>
+                            </div>
+                            <div class="techniques">
+                                <span class="technique-tag">Excel</span>
+                                <span class="technique-tag">Due diligence</span>
+                                <span class="technique-tag">Desk research</span>
+                                <span class="technique-tag">Compliance</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">Jun 2021 – Sep 2021</div>
+                        <div class="timeline-content">
+                            <h3 class="position">Product Data Analyst Intern</h3>
+                            <span class="institution">Tencent</span>
+                            <div class="description-container">
+                                <ul class="description-list">
+                                    <li>Designed and executed A/B testing experiments, applying statistical analyses to validate results and improve user engagement.</li>
+                                    <li>Built real-time visualization dashboards using BI tools to monitor KPIs and presented data-driven reports to product managers.</li>
+                                    <li>Worked in cross-functional team with data engineers and product managers, bridging the gap between tech and non-tech stakeholders.</li>
+                                </ul>
+                            </div>
+                            <div class="techniques">
+                                <span class="technique-tag">MySQL</span>
+                                <span class="technique-tag">Python</span>
+                                <span class="technique-tag">A/B Testing</span>
+                                <span class="technique-tag">Product development</span>
+                                <span class="technique-tag">t-tests</span>
+                                <span class="technique-tag">chi-squared tests</span>
+                                <span class="technique-tag">Business intelligence tools</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="hidden">
+            <h2>Projects</h2>
+            <div class="carousel-wrapper">
+                <div class="projects-container" id="projects-container">
+                    <div class="project-card">
+                        <h3 class="project-title">Product Strategy Consulting: Capstone Project with Google</h3>
+                        <span class="project-duration">Feb 2025 - May 2025</span>
+                        <p class="project-description">Collaborated with a cross-functional team to investigate ethical challenges and user trust issues of GenAI content on YouTube. Conducted user research, designed interactive prototypes, and pitched a trust score-based strategy to enhance platform integrity.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Figma</span>
+                            <span class="tech-tag">Canva</span>
+                            <span class="tech-tag">Google Forms</span>
+                            <span class="tech-tag">Miro</span>
+                        </div>
+                        <div class="project-outcomes">
+                            <h4>Outcomes:</h4>
+                            <ul>
+                                <li><i class="fa-solid fa-check"></i> End-to-end product development life cycle</li>
+                                <li><i class="fa-solid fa-check"></i> Enhanced user trust and platform integrity</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <h3 class="project-title">The Chinese Factory Project</h3>
+                        <span class="project-duration">Mar 2022 – May 2023</span>
+                        <p class="project-description">Developed a quantitative and spatial informatics database for factories, conducted regression analyses to uncover insights into China's industrial development, and created Tableau visualizations to present key trends.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Excel</span>
+                            <span class="tech-tag">R</span>
+                            <span class="tech-tag">Tableau</span>
+                        </div>
+                        <div class="project-outcomes">
+                            <h4>Outcomes:</h4>
+                            <ul>
+                                <li><i class="fa-solid fa-check"></i> Presented key trends in China's industrial development</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <h3 class="project-title">Startup Project: SitDown Souvenir Design Studio</h3>
+                        <span class="project-duration">Sep 2020 - May 2023</span>
+                        <p class="project-description">Founded a start-up studio, secured seed funding, conducted market research, and launched original souvenir products. Managed end-to-end product development, budgeting and operations.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Qualtrics</span>
+                            <span class="tech-tag">Google Slides</span>
+                            <span class="tech-tag">Excel</span>
+                        </div>
+                        <div class="project-outcomes">
+                            <h4>Outcomes:</h4>
+                            <ul>
+                                <li><i class="fa-solid fa-check"></i> 0-1 Project management launching 30+ original souvenir products</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <h3 class="project-title">“From Pixels to Words: Deep Learning for Social Media Image Caption Generation”</h3>
+                        <span class="project-duration">Fall 2023</span>
+                        <p class="project-description">Designed and implemented an end-to-end machine learning pipeline, engineered a TensorFlow-based deep learning model to automate Instagram caption generation, improving model accuracy to 88% with a CNN-LSTM and 4-layer Transformer-decoder framework. Enhanced model adaptability to social media context by employing transfer learning, fine-tuning on a custom-crawled Instagram dataset after foundational training on Flickr8k dataset, addressing challenges in dataset size and image-text correlation.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">TensorFlow</span>
+                            <span class="tech-tag">CNNs</span>
+                            <span class="tech-tag">Transformer</span>
+                        </div>
+                        <div class="project-outcomes">
+                            <h4>Outcomes:</h4>
+                            <ul>
+                                <li><i class="fa-solid fa-check"></i> Automated Instagram-style caption generation</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Carousel Navigation Controls -->
+                <button class="carousel-control prev" onclick="prevSlide()">&#10094;</button>
+                <button class="carousel-control next" onclick="nextSlide()">&#10095;</button>
+            </div>
+        </section>
+
+        <section id="skills" class="hidden">
+            <h2>Technical Skills</h2>
+            <div id="technical-skills-container" class="skills-grid">
+                <div class="skill-item">
+                    <i class="fa-brands fa-python"></i>
+                    <span>Python (Pandas, NumPy, Sklearn)</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fa-solid fa-database"></i>
+                    <span>SQL (PostgreSQL, MySQL)</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fa-solid fa-chart-line"></i>
+                    <span>Business Intelligence Tools (Tableau, Power BI)</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fa-solid fa-cloud"></i>
+                    <span>Database System (Spark, AWS, Redshift, Snowflake)</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fa-solid fa-code"></i>
+                    <span>ETL</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fa-solid fa-brain"></i>
+                    <span>NLP (NLTK)</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fa-solid fa-fire"></i>
+                    <span>Streamlit</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fa-solid fa-chart-pie"></i>
+                    <span>Matplotlib, Plotly, Seaborn</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="teaching" class="hidden">
+            <h2 class="section-title">Teaching Experience</h2>
+            <div class="content-container" id="teaching-container">
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">Spring 2025</div>
+                        <div class="timeline-content">
+                            <h3 class="teaching-role">Teaching Assistant (Grader)</h3>
+                            <span class="teaching-institution">Cornell Tech</span>
+                            <div class="courses-container">
+                                <h4>Courses:</h4>
+                                <ul>
+                                    <li>INFO 5305: User Experience and User Research</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">Fall 2024</div>
+                        <div class="timeline-content">
+                            <h3 class="teaching-role">Teaching Assistant (Grader)</h3>
+                            <span class="teaching-institution">Cornell Tech</span>
+                            <div class="courses-container">
+                                <h4>Courses:</h4>
+                                <ul>
+                                    <li>INFO 5310: Psychological and Social Aspects of Technology</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">Fall 2020</div>
+                        <div class="timeline-content">
+                            <h3 class="teaching-role">Teaching Assistant (Peer Tutor)</h3>
+                            <span class="teaching-institution">Duke Kunshan University</span>
+                            <div class="courses-container">
+                                <h4>Courses:</h4>
+                                <ul>
+                                    <li>ECON 203: Introduction to Econometrics</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="awards" class="hidden">
+            <h2 class="section-title">Honors & Awards</h2>
+            <div class="content-container" id="awards-container">
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">2023</div>
+                        <div class="timeline-content">
+                            <h3 class="award-name">Merit Scholarship Recipient</h3>
+                            <span class="award-issuer">Cornell University</span>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">2023</div>
+                        <div class="timeline-content">
+                            <h3 class="award-name">Graduated Magna cum laude & Dean’s List (with Distinction)</h3>
+                            <span class="award-issuer">Duke Kunshan University</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <button class="theme-toggle" onclick="toggleTheme()"><i class="fa-solid fa-moon fa-lg"></i></button>
+
+    <script>
+        function toggleTheme() {
+            const body = document.body;
+            body.classList.toggle('dark');
+
+            const button = document.querySelector('.theme-toggle');
+            button.innerHTML = body.classList.contains('dark')
+                ? '<i class="fa-solid fa-sun fa-lg"></i>'
+                : '<i class="fa-solid fa-moon fa-lg"></i>';
+        }
+
+        function showSection(id) {
+            document.querySelectorAll('main section').forEach(s => s.classList.add('hidden'));
+            document.getElementById(id).classList.remove('hidden');
+        }
+
+        // Default section on page load
+        showSection('profile');
+        const text = "ello, I'm";
+        const typingText = document.getElementById('typing-text');
+        let index = 0;
+        let isDeleting = false;
+
+        function typeEffect() {
+            if (isDeleting) {
+                typingText.innerText = text.substring(0, index--);
+            } else {
+                typingText.innerText = text.substring(0, index++);
+            }
+            let speed = isDeleting ? 75 : 150;
+            if (!isDeleting && index === text.length + 1) {
+                speed = 1200; // Pause at full text before deleting
+                isDeleting = true;
+            } else if (isDeleting && index === 0) {
+                isDeleting = false;
+                speed = 500; // Pause before typing again
+            }
+            setTimeout(typeEffect, speed);
+        }
+        typeEffect();
+
+        document.querySelectorAll('.timeline-item').forEach(item => {
+            item.addEventListener('mouseenter', function () {
+                document.querySelectorAll('.timeline-item.active').forEach(activeItem => {
+                    if (activeItem !== this) {
+                        activeItem.classList.remove('active');
+                    }
+                });
+                this.classList.add('active');
+            });
+
+            item.addEventListener('click', function () {
+                document.querySelectorAll('.timeline-item').forEach(i => i.classList.remove('active'));
+                this.classList.add('active');
+            });
+        });
+
+        // Project section
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.project-card');
+        const totalSlides = slides.length;
+
+        function updateCarousel() {
+            const container = document.querySelector('.projects-container');
+            container.style.transform = `translateX(-${currentSlide * 100}%)`;
+        }
+
+        function nextSlide() {
+            if (currentSlide < totalSlides - 1) {
+            currentSlide++;
+            updateCarousel();
+            }
+        }
+
+        function prevSlide() {
+            if (currentSlide > 0) {
+            currentSlide--;
+            updateCarousel();
+            }
+        }
+        document.addEventListener('DOMContentLoaded', updateCarousel);
+    </script>
+</body>
+</html>
